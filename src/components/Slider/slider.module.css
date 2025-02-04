@@ -1,0 +1,24 @@
+.slider-container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    max-width: 100vw;
+    transition: transform 0.5s ease-in-out;
+}
+.slide-container{
+    max-height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.pagination{
+    border: 1px solid bisque;
+}
+.active {
+    background-color: bisque;
+}
+.button-container{
+    font-size: 10px;
+}

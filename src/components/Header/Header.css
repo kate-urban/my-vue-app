@@ -1,0 +1,32 @@
+.header{
+    background-color: rgb(252, 239, 223);
+    border-bottom: 2px solid rgb(132, 131, 131);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25.01px;
+    max-width: 86px;
+    max-height: 32px;
+    padding: 1.3rem;
+    font-weight: 600;
+    left: 120px;
+    height: 32px;
+    width: 86px;
+    position: relative;
+    color: black;
+}
+.button{
+    height: 45px;
+    position: relative;
+    margin: 1rem;
+    display: inline-block;
+    top: 10px;
+    background-color: rgb(252, 239, 223);
+    border: 2px solid black;
+    border-radius: 0;
+    right: 40px;
+    bottom: 20px;
+    width: 130px;
+    font-size: 15px;
+}
