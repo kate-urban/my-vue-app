@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import { FormControlLabel } from "@mui/material";
 import {Checkbox} from "@mui/material";
 
+
 export default function Form() {
     return(
     <Box 
@@ -17,7 +18,14 @@ export default function Form() {
           required
           id="outlined-required"
           label="Required"
+          defaultValue="Ваш email"
+        />
+        <TextField
+          required
+          id="outlined-required"
+          label="Required"
           defaultValue="Ваше имя"
+        
         />
             <FormControlLabel required control={<Checkbox />} label="Обязательно" />
      </Box>

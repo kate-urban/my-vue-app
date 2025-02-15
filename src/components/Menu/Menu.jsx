@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 export default function Menu() {
     const MENU = [
-        {title: 'Home', to: 'Home', key: uuid()},
-        {title: 'Services', to: 'Services', key: uuid()},
-        {title: 'Portfolio', to: 'portfolio', key: uuid()},
-        {title: 'About Us', to: 'About Us', key: uuid()},
+        {title: 'Home', to: '/Home', key: uuid()},
+        {title: 'Services', to: '/Services', key: uuid()},
+        {title: 'Portfolio', to: '/portfolio', key: uuid()},
+        {title: 'About Us', to: '/About Us', key: uuid()},
     ];
     return (
         <nav className='NAV'>
